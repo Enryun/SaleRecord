@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3022C62824810644003AB355 /* TableDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022C62724810644003AB355 /* TableDisplay.swift */; };
+		304CE3222482395600D15D27 /* ConfirmSales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CE3212482395600D15D27 /* ConfirmSales.swift */; };
 		304E2320247E049300C889B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E231F247E049300C889B1 /* AppDelegate.swift */; };
 		304E2322247E049300C889B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E2321247E049300C889B1 /* SceneDelegate.swift */; };
 		304E2324247E049300C889B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E2323247E049300C889B1 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3022C62724810644003AB355 /* TableDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDisplay.swift; sourceTree = "<group>"; };
+		304CE3212482395600D15D27 /* ConfirmSales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSales.swift; sourceTree = "<group>"; };
 		304E231C247E049300C889B1 /* SalesRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304E231F247E049300C889B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304E2321247E049300C889B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				30D10094247F904100EF1C61 /* MenuData.swift */,
+				3022C62724810644003AB355 /* TableDisplay.swift */,
+				304CE3212482395600D15D27 /* ConfirmSales.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,8 +201,10 @@
 				304E2320247E049300C889B1 /* AppDelegate.swift in Sources */,
 				304E2322247E049300C889B1 /* SceneDelegate.swift in Sources */,
 				304E232A247E049300C889B1 /* SalesRecord.xcdatamodeld in Sources */,
+				3022C62824810644003AB355 /* TableDisplay.swift in Sources */,
 				30D10095247F904100EF1C61 /* MenuData.swift in Sources */,
 				30D1008F247F80B600EF1C61 /* CustomTableCell.swift in Sources */,
+				304CE3222482395600D15D27 /* ConfirmSales.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,19 +13,6 @@ struct MenuItem {
     var price: String
 }
 
-struct TableCellData: Hashable {
-    var quantity = 1
-    let drink: String
-    let price: String
-    
-    var total: Int {
-        get {
-            let priceInt = Int(price.dropLast())
-            return quantity*priceInt!
-        }
-    }
-}
-
 
 struct MenuData {
     static let coffeeMenu: [MenuItem] = [
