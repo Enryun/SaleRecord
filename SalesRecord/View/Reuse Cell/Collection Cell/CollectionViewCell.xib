@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="itemCell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="SalesRecord" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-q0-0Kw">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uqk-jm-Fhr">
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Yi-Ed-gXL">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="90"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDS-2q-Mav">
+                                        <rect key="frame" x="43.5" y="90" width="33" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Xtc-fM-97n"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8Yi-Ed-gXL" secondAttribute="trailing" id="bmc-ZQ-EFT"/>
+                                    <constraint firstItem="8Yi-Ed-gXL" firstAttribute="leading" secondItem="Uqk-jm-Fhr" secondAttribute="leading" id="k8v-U3-nmn"/>
+                                    <constraint firstItem="8Yi-Ed-gXL" firstAttribute="top" secondItem="Uqk-jm-Fhr" secondAttribute="top" id="vus-av-AEB"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Uqk-jm-Fhr" firstAttribute="leading" secondItem="DVc-q0-0Kw" secondAttribute="leading" id="6Zt-tu-eUW"/>
+                            <constraint firstAttribute="bottom" secondItem="Uqk-jm-Fhr" secondAttribute="bottom" id="Qf8-YL-Pm8"/>
+                            <constraint firstAttribute="trailing" secondItem="Uqk-jm-Fhr" secondAttribute="trailing" id="Y72-Fq-xKB"/>
+                            <constraint firstItem="Uqk-jm-Fhr" firstAttribute="top" secondItem="DVc-q0-0Kw" secondAttribute="top" id="Z1R-3u-916"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DVc-q0-0Kw" secondAttribute="trailing" id="DPR-cN-cFV"/>
+                <constraint firstItem="DVc-q0-0Kw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="EV4-0h-Qhv"/>
+                <constraint firstItem="DVc-q0-0Kw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WNU-2y-PGw"/>
+                <constraint firstAttribute="bottom" secondItem="DVc-q0-0Kw" secondAttribute="bottom" id="bOF-hi-llk"/>
+            </constraints>
+            <size key="customSize" width="159" height="150"/>
+            <connections>
+                <outlet property="drinkName" destination="LDS-2q-Mav" id="1Kp-DD-qIK"/>
+                <outlet property="image" destination="8Yi-Ed-gXL" id="xRX-HO-U3g"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="176.11607142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>
