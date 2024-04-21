@@ -1,0 +1,11 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Ignore all .DS_Store files
+.DS_Store
