@@ -1,6 +1,0 @@
-framework module Pods_SalesRecord {
-  umbrella header "Pods-SalesRecord-umbrella.h"
-
-  export *
-  module * { export * }
-}
